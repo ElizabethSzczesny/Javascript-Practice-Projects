@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height:600px;
+}
+
+.img-container{
+    width:70%;
+    height: 500px;
+}
+
+.image{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display:none;
+}
+
+.one{
+    display:block;
+}
+
+.dot{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color: #567789;
+    display:inline-block;
+}
+
+.active{
+    background-color: bisque;
+}
+
