@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEFEE8;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width:600px;
+    height:600px;
+    margin:auto;
+    box-shadow: 10px 10px 10px gray;
+    letter-spacing: 0.4rem;
+    font-size: 20px;
+}
+
+#list{
+    list-style: none;
+}
+
+#input-add{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    width:200px;
+    height:40px;
+}
+
+#pencil{
+    font-size:50px;
+}
+
+
+
